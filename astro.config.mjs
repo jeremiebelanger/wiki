@@ -3,7 +3,8 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  base: "/",
+  site: "https://github.com/Equine-Duty",
+  base: "/wiki",
   integrations: [
     starlight({
       title: "Equine Duty",
@@ -15,7 +16,7 @@ export default defineConfig({
           label: "Bienvenue",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "", link: "/" },
+            { label: "", link: "/wiki" },
           ],
         },
         {
