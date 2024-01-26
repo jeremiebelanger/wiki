@@ -13,27 +13,28 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: "Bienvenue",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "", link: "/wiki" },
-          ],
+          label: "Equine Duty",
+          autogenerate: { directory: "home" },
         },
         {
           label: "API",
           autogenerate: { directory: "api" },
+          collapsed: true,
         },
         {
           label: "Client",
           autogenerate: { directory: "client" },
+          collapsed: true,
         },
         {
           label: "Admin",
           autogenerate: { directory: "admin" },
+          collapsed: true,
         },
         {
           label: "Gestion",
           autogenerate: { directory: "gestion" },
+          collapsed: true,
         },
       ],
     }),
