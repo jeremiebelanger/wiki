@@ -1,3 +1,7 @@
+---
+title: 23 Janvier
+description: Equine Duty
+---
 
 ## Ordre du jour
 - Présentations

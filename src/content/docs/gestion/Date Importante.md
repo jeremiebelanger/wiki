@@ -1,3 +1,8 @@
+---
+title: Dates importante
+description: Equine Duty
+---
+
 ## Rencontre avec le client
 Les rencontres avec les clients auront lieu tous les jeudi après-midi, à l’exception de la première et la dernière rencontre.
 ### Local

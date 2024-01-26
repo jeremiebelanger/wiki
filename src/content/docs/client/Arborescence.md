@@ -1,4 +1,9 @@
-### Authentification
+---
+title: Arborescence
+description: Equine Duty
+---
+
+## Authentification
 - Page Login
 - Page d'enregistrement
 - Page de validation courriel?

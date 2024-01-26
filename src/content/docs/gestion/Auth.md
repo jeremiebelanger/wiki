@@ -1,3 +1,8 @@
+---
+title: Auth provider
+description: Equine Duty
+---
+
 ## Pros et Cons
 ### Pros
 - Diminution du temps de développement
