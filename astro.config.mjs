@@ -31,6 +31,10 @@ export default defineConfig({
           label: "Admin",
           autogenerate: { directory: "admin" },
         },
+        {
+          label: "Gestion",
+          autogenerate: { directory: "gestion" },
+        },
       ],
     }),
   ],
