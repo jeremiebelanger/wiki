@@ -9,8 +9,19 @@ Le logiciel Equine Duty permettra de faciliter la planification des compétition
 
 ## Table des matières
 
+- [Technologies](#technologies)
 - [Installation](#installation)
 - [Demarrage](#demarrage)
+
+## Technologies
+
+-   Langage de programmation : Typescript ou Javascript
+-   Framework web : React
+-   Outils de build : Vite
+-   Interface/style : TailwindCSS
+-   Gestion d'API: React-Query (Tanstack-Query)
+-   Tests : Jest, Vitest
+
 
 ## Installation
 
