@@ -20,3 +20,4 @@ description: Equine Duty
 -   Est-ce que dans la modification de compte, nous pouvons modifier les privilèges d’un compte à secrétaire ?
 -   Si l’organisateur a des concours en cours, comment ça se passe pour la suppression d’un compte ?
 -   Pour l’envoie des scores aux organisations, comment ça se passe ?
+-   Pourquoi y-a-t-il une date pour une classe ?
