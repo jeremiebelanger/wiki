@@ -17,7 +17,7 @@ description: Route pour recevoir toutes les competitions avec un ou plusieurs fi
   
     filtre :
     - Variable: `name` (Recherche par nom)
-    - Variable: `show-state` (pre-show/show/post-show)
+    - Variable: `show_state` (pre-show/show/post-show)
     - Variable: `emplacement`
     - Variable: `nb_participant`
     - Variable: `available_spot`
