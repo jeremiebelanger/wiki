@@ -63,7 +63,9 @@ description: Route pour recevoir toutes les competitions avec un ou plusieurs fi
           "drug_test": 20
         },
         "is_quebec_recognized": false,
-        "rules": "Hello I am the rules !"
+        "rules": "Hello I am the rules !",
+        "start_date": "2024-01-01T00:00:00.000Z",
+        "end_date": "2024-01-05T00:00:00.000Z"
       },
       ...
       ],
