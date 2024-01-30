@@ -35,14 +35,8 @@ description: Route pour recevoir une competition par son id
         "organizer":  {
           "id": 1,
           "name": "James Cameron",
-          "address": {
-            "number": 1 ,
-            "street" : "blv laurent",
-            "appartement_number" : null,
-            "postal_code": "3lp 2p0"
-          } ,
           "email": "james04@gmail.com",
-          "phone": "(450)869-9045",
+          "phone": "450-869-9045",
           "birthdate": "1992-07-03" 
         },
         "is_late_registration": true,
