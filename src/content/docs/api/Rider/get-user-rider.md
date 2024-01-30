@@ -21,7 +21,7 @@ description: Route pour recevoir la liste des riders d'un user
         {
           "id": 1,
           "name": "Alexandra Rider",
-          "phone": "(450) 123-4567",
+          "phone": "450-123-4567",
           "email": "alexandra.rider@example.com",
           "no_FEI": "FEI001",
           "emergency_name": "John Smith",
@@ -32,7 +32,7 @@ description: Route pour recevoir la liste des riders d'un user
         {
           "id": 2,
           "name": "Benjamin Jumper",
-          "phone": "(514) 555-7890",
+          "phone": "514-555-7890",
           "email": "benjamin.jumper@example.com",
           "no_FEI": "FEI002",
           "emergency_name": "Mary Johnson",
@@ -43,7 +43,7 @@ description: Route pour recevoir la liste des riders d'un user
         {
           "id": 3,
           "name": "Claire Canter",
-          "phone": "(438) 765-4321",
+          "phone": "438-765-4321",
           "email": "claire.canter@example.com",
           "no_FEI": "FEI003",
           "emergency_name": "Michael Brown",
