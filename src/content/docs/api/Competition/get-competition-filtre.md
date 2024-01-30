@@ -28,47 +28,44 @@ description: Route pour recevoir toutes les competitions avec un ou plusieurs fi
     **Contenu:** 
     ```json
     {
-      "data": [ 
-        {
-          "id": 1,
-          "name": "Compétition de Bromont",
-          "emplacement":{
-            "id": 2 ,
-            "address": {
-              "number": 1 ,
-              "street" : "blv laurent",
-              "appartement_number" : null,
-              "postal_code": "3lp 2p0"
-            },
-            "nb_temp_stalls": 12 ,
-            "nb_inside_stalls": 15 ,
-            "nb_equipement_stalls": 12 
+      "data": [
+      {
+        "id": 1,
+        "name": "Competition 1",
+        "emplacement": {
+          "address": {
+            "number": 123,
+            "street": "Main Street",
+            "appartment_number": 456,
+            "zip_code": "12345"
           },
-          "organizer":  {
-            "id": 1,
-            "name": "James Cameron",
-            "email": "james04@gmail.com",
-            "phone": "450-869-9045",
-            "birthdate": "1992-07-03" 
-          },
-          "is_late_registration": true,
-          "pathLogo": null,
-          "nb_places_dispo": 145,
-          "nb_places_total": 275,
-          "competition_fees": 
-          {
-              "id": 1,
-              "hay": 12.99,
-              "chippings": 23.49,
-              "inside_stalls_per_day": 32.49,
-              "temp_stalls_per_day": 25,
-              "drug_test": 18
-          },
-          "is_quebec_recognized": true,
-          "rules": "Règles ..."
+          "nb_temp_stalls": 10,
+          "nb_inside_stalls": 12,
+          "nb_equipment_stalls": 25
         },
-        ...
-        
+        "organizer": {
+          "id": 2,
+          "name": "Mark Admio",
+          "email": "mark.admio@example.com",
+          "phone": "123-456-1234",
+          "birthdate": "1990-01-01T00:00:00.000Z"
+        },
+        "is_late_registration": false,
+        "path_logo": null,
+        "nb_free_place": 100,
+        "nb_total_place": 100,
+        "competition_fees": {
+          "id": 1,
+          "hay": 50,
+          "chippings": 30,
+          "inside_stall_per_day": 15,
+          "temp_stall_per_day": 10,
+          "drug_test": 20
+        },
+        "is_quebec_recognized": false,
+        "rules": "Hello I am the rules !"
+      },
+      ...
       ],
     }
     ```
