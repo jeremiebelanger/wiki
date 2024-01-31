@@ -22,3 +22,4 @@ description: Equine Duty
 -   Pour l’envoie des scores aux organisations, comment ça se passe ?
 -   Pourquoi y-a-t-il une date pour une classe ?
 -   Lorsque nous sommes sur la page avec les différents concours, lorsqu'on clique sur un concours, doit-on directement être envoyé vers la modification de la compétition ?
+-   Comment ça va se passer pour la pagination des events ?
