@@ -30,6 +30,7 @@ description: Equine Duty
 - Avez-vous des réseau sociaux lié à la marque?
 - Quel devrait être le format des facture? (Imprimable vs mobile)
 - Font pour le logo.
+- Est-ce un inscription par cavalier/chevaux?
 
 ### Front Admin 
 -   Doit-on mettre un lien direct dans la reprise pour pouvoir télécharger le document ?
