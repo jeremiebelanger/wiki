@@ -10,6 +10,7 @@ description: Equine Duty
   - Maquette client
   - Maquette admin
 - Rétroaction
+- Authentification
 - Questions sur le projet
   - Api
   - Client
@@ -28,6 +29,7 @@ description: Equine Duty
 ### Front Client
 - Avez-vous des réseau sociaux lié à la marque?
 - Quel devrait être le format des facture? (Imprimable vs mobile)
+- Font pour le logo.
 
 ### Front Admin 
 -   Doit-on mettre un lien direct dans la reprise pour pouvoir télécharger le document ?
