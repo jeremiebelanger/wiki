@@ -42,7 +42,7 @@ description: Equine Duty
 - Avez-vous un serveur SMTP de disponible avec votre hébergeur?
 - Doit-on calculer le score manuellement ou est-il calculer à partir des marques?
 - Clarification dans le cas ou un cheval est loué/prêter. Doit-on ajouter les informations du propriétaire?
-Est-ce qu'on peux modifier et supprimer une class si les date d'isncription son commencer?
+- Est-ce qu'on peux modifier et supprimer une class si les date d'isncription son commencer?
 
 ### Front Client
 
