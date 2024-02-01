@@ -3,10 +3,27 @@ title: 1 Févrirer
 description: Equine Duty
 ---
 
+## Ordre du jour
+- Mise au point
+  - État du projet
+- Présentation des maquettes
+  - Maquette client
+  - Maquette admin
+- Rétroaction
+- Questions sur le projet
+  - Api
+  - Client
+  - Admin
+
 ## Questions
+
+### Auth
+
 
 ### API
 - Avez-vous un serveur SMTP de disponible avec votre hébergeur?
+- Doit-on calculer le score manuellement ou est-il calculer à partir des marques?
+- Clarification dans le cas ou un cheval est loué/prêter. Doit-on ajouter les informations du propriétaire?
 
 ### Front Client
 - Avez-vous des réseau sociaux lié à la marque?
