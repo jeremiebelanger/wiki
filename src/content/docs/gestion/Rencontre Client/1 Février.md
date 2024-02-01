@@ -38,62 +38,11 @@ description: Equine Duty
 -	Pas besoin de l’adresse du propriétaire, infos de la maquette correcte pour le proprio.
 -	Enregistrer le cheval n’est pas une des pages visitées régulièrement.
 
-### Admin
-- Page de  login : good
-- Ce qui est important c’est ce qui vient et ce qui est en progrès.
-- Séparer les évents en tableau de 3.
-- Environ une quizaine d’évènements par année par organisateur
-- Boutons preshow/show/post show est good
--  Résultats : Tu dois aller chercher la classe, chercher la reprise ensuite nom du rider et entrer les scores. Pourrait devenir compliqué/crowded avec un grand nombre de mouvements.
-- La secrétaire veut rentrer les pointages -> classe 1 -> reprise 1
-- Proposition: mettre les noms à gauche et cliquer sur le nom et les pointages s’affiche à droite à l’écran.
-- La secrétaire serait supposée rentre la somme des scores de tout les juges pour chaque participant (Éric doit confirmer)
-- Les 3 boutons sont bons: Imprimer, Envoyer les scores, Fermer le concours
-- Tests, pas dressages
-- Numéro à la place d’un checkbox dans le tableau
-- Pas de gestion des chevaux d’un utilisateur
-- Effacer un user est plus important
-- Écuries : entrées d’avance par organisateur ou entrée manuellement? (Éric va confirmer)
-- Tu préselectionnes en progrès ou en show, et ça affiche les évents les plus proches. Les finis ne sont même pas affichées par défaut.
-- Classement final pas pertinent dans le admin panel. Plus important d’avoir des boutons pour fermer le concours, imprimer, et envoyer les résultats
-- Si une classe est terminée, faire en sorte qu’elle soit cochée pour indiquer.
-- Visualisations d’évènements : résumé d’informations importantes : stalles, balles de foin, ripe, participants inscrits, nombre de stalles etc achetés comparativement au nombre qu’il y a de disponible. 
-- Le prix du concours (détails) n’est pas important à afficher.
-- Pas besoin de voir les tests dans le détails non plus (Éric va vérifier) doit être facile pour les organisateurs
-- Quand tu clic sur l’évent, juste voir ou est ce que tu es rendu, faire un autre accordéon pour les classes. Juste afficher par exemple Classe et le nombre de classes. 
-- Test = Reprise
-- Montants ne devraient plus être modifiables après la création de l’évènement. On ne devrait plus pouvoir modifier grand chose après la création en théorie. Juges pourront être changés.
--Il y a un bouton publier en plus de sauvegarder.
--  Un évent est publié environ 1 mois à l’avance.
--  Frontend va pouvoir modifier les horaires (drag and drop)
-
-## Questions
-
-### Api
-
-**Avez-vous un serveur SMTP de disponible avec votre hébergeur?**
-
--  Éric est en train de regarder ca (Digital Ocean)
-
-**Clarification dans le cas ou un cheval est loué/prêter. Doit-on ajouter les informations du propriétaire?**
-
--	Relation avec un propriétaire est nécessaire
-
-**Est-ce qu’on peux modifier et supprimer une class si les date d’isncription son commencer?**
-
--	Non parce que des gens peuvent s’être déjà inscrit.
-
-**On aurais des question sur les secrétaires?**
-
--	Une secrétaire aura un compte avec les droits secrétaires et peut être ajoutée à un ou plusieurs concours.
-
-**Comment un admin viens ajoute un organisateur?**
-
--	Demande les informations de base de la personne, et lui créé un compte avec un mot de passe temporaire qui pourra être changé par l’organisateur ensuite.
-
-**Comment un organisateur ajoute une secrétaire?**
-
--	Le nom de la secrétaire, le numéro de télephone, le courriel et le mot de passe pour se connecter.
+### API
+- Avez-vous un serveur SMTP de disponible avec votre hébergeur?
+- Doit-on calculer le score manuellement ou est-il calculer à partir des marques?
+- Clarification dans le cas ou un cheval est loué/prêter. Doit-on ajouter les informations du propriétaire?
+Est-ce qu'on peux modifier et supprimer une class si les date d'isncription son commencer?
 
 ### Front Client
 
