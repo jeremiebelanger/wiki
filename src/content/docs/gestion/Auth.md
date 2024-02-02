@@ -16,7 +16,7 @@ description: Equine Duty
 
 ## Fournisseurs
 ### [Clerk](https://clerk.com/pricing)
-
+Auth provider est relativement récent est activement en développement. Utilisé par plusieurs grosses entreprises et dévelopeur indépendant. Il y a une faible coût et permet de facilement ajouter des 3rd party. 
 
 ### [Supabase](https://supabase.com/pricing)
 Gestion d'utilisateurs tout en un à coût raisonnable qui permettrait de faire le stockage de tout les informations utilisateurs qui nous serait nécessaire. Alternative Open Source à Firebase qui permet aussi la migration a partir de celui-ci.
@@ -36,7 +36,6 @@ Projet Open Source qui nous permet de SelfHost. Une bonne option gratuite qui n�
 - [NHOST](https://nhost.io/pricing)
 - [KeyCloak](https://www.keycloak.org/)
 - [AWS Cognito](https://aws.amazon.com/fr/cognito/)
--
 
 ## Resources
 https://hasura.io/blog/top-authentication-providers-building-apps-jwt/
