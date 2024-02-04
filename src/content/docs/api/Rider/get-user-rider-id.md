@@ -23,9 +23,9 @@ description: Route pour recevoir un rider à partir d'un user
       "email": "alexandra.rider@example.com",
       "no_FEI": "FEI001",
       "emergency_name": "John Smith",
+      "emergency_phone": "450-987-6543",
       "stable_name": "Majestic Stables",
-      "trainer_name": "Emily Trainer",
-      "emergency_phone": "450-987-6543"
+      "trainer_name": "Emily Trainer"
     },
     ```
 
