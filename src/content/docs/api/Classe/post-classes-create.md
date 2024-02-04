@@ -20,9 +20,12 @@ description: Route pour créer une nouvelle classe
     `number=[int]`<br>
     `name=[string]`<br>
     `date=[date]`<br>
-    `arena=[string]`<br>
+    `ring_name=[string]`<br>
+    `ring_number=[string]`<br> 
     `price_entry=[int]`<br>
-    `competition_id=[int]`<br>
+    `level_type=[string]`<br>
+    `is_test_of_choice=[bool]`<br>
+    `show_id=[int]`<br>
 
    
 * **Réponse de succès:**
@@ -35,9 +38,10 @@ description: Route pour créer une nouvelle classe
       "number": 1,
       "name" : "<nom de la classe>",
       "date" : "2024-01-29",
-      "arena": "<nom de l'arena>",
+      "ring_name": "<nom du ring>",
+      "ring_number": "<numero du ring>",
       "price_entry" : 1499,
-      "competition_id": 1
+      "show_id": 1
     }        
     ```
 
