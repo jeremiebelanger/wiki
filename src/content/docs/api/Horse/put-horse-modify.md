@@ -19,10 +19,6 @@ description: Route pour modifier un cheval à un user
  
     `name=[string]`<br>
     `sex=[string]`<br>
-    `no_FEI=[string]`<br>
-    `no_micro_chip=[string]`<br>
-    `vaccine=[.pdf|.png|.jpeg]`<br>
-    `coggins=[.pdf|.png|.jpeg]`<br>
 
 * **Réponse de succès:**
   
@@ -33,10 +29,6 @@ description: Route pour modifier un cheval à un user
       "id": 1,
       "name": "Thunderbolt",
       "sex": "Male",
-      "no_FEI": "FEI123",
-      "no_micro_chip": "MIC456",
-      "path_vaccine": "/vaccine/thunderbolt.pdf",
-      "path_coggins": "/coggins/thunderbolt.pdf"
     }
     ```
 
