@@ -1,6 +1,6 @@
 ---
-title: Recevoir la liste des competitions d'un user
-description: Route pour recevoir la liste des competitions d'un user
+title: Recevoir la liste des shows d'un user
+description: Route pour recevoir la liste des shows d'un user
 ---
 
 * **URL**
