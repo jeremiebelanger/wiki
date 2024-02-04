@@ -1,6 +1,6 @@
 ---
-title: Supprimer une competition
-description: Route pour supprimer une competition.
+title: Supprimer un show 
+description: Route pour supprimer un show.
 ---
 * **URL**
 
@@ -17,7 +17,7 @@ description: Route pour supprimer une competition.
     ```json
     {
       "id": 1,
-      "name": "<nom de la competition>"
+      "name": "<nom du show>"
     }
     ```
 

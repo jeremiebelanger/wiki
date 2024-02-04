@@ -18,21 +18,20 @@ description: Route pour céer une competition
     Content-Type: application/x-www-form-urlencoded
  
     `name=[string]`<br>
-    `emplacement_id=[int]`<br>
+    `address_id=[int]`<br>
     `organizer_id=[int]`<br>
-    `is_late_registration=[boolean]`<br>
-    `pathLogo=[string]`<br>
+    `can_have_late_registration=[boolean]`<br>
+    `path_logo=[string]`<br>
     `nb_total_place=[int]`<br>
-    `nb_free_place=[int]`<br>
-    `competitions_fee_id=[int]`<br>
-    `admin_fee_id=[int]`<br>
-    `is_quebec_recognized=[boolean]`<br>
+    `show_fee_id=[int]`<br>
+    `administration_fee_id=[int]`<br>
+    `recognized_show=[boolean]`<br>
     `rules=[string]`<br>
     `start_date=[string]`<br>
     `end_date=[string]`<br>
-    `start_inscription_date=[string]`<br>
-    `end_inscription_date=[string]`<br>
-    `start_late_inscription_date=[string]`<br>
+    `inscription_start_date=[string]`<br>
+    `inscription_end_date=[string]`<br>
+    `inscription_end_late_date=[string]`<br>
     `end_late_inscription_date=[string]`<br>
    
 * **Réponse de succès:**
