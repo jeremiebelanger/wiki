@@ -33,7 +33,6 @@ description: Route pour modifier un show.
     `start_inscription_date=[string]`<br>
     `end_inscription_date=[string]`<br>
     `start_late_inscription_date=[string]`<br>
-    `end_late_inscription_date=[string]`<br>
     `admin=[int]`<br>
     `late=[int]`<br>
     `annulation=[int]`<br>
@@ -48,6 +47,7 @@ description: Route pour modifier un show.
 
   **Optionnel**
     `show_logo=[.pdf|.png|.jpeg]`<br>
+    `end_late_inscription_date=[string]`<br>
    
 * **Réponse de succès:**
   

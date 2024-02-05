@@ -31,10 +31,10 @@ description: Route pour céer une competition
     `inscription_start_date=[string]`<br>
     `inscription_end_date=[string]`<br>
     `inscription_end_late_date=[string]`<br>
-    `end_late_inscription_date=[string]`<br>
 
   **Optionnel**
     `show_logo=[.pdf|.png|.jpeg]`<br>
+    `inscription_end_late_date=[string]`<br>
    
 * **Réponse de succès:**
   
