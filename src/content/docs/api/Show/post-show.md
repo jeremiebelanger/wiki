@@ -5,7 +5,7 @@ description: Route pour céer une competition
 
 * **URL**
 
-  /api/competition
+  /api/shows
 
 * **Méthode:**
   
@@ -13,15 +13,14 @@ description: Route pour céer une competition
 
 * **Paramètres:**
 
-  **Requis:**
+  Content-Type: form-data
 
-    Content-Type: application/x-www-form-urlencoded
+  **Requis:**
  
     `name=[string]`<br>
     `address_id=[int]`<br>
     `organizer_id=[int]`<br>
     `can_have_late_registration=[boolean]`<br>
-    `path_logo=[string]`<br>
     `nb_total_place=[int]`<br>
     `show_fee_id=[int]`<br>
     `administration_fee_id=[int]`<br>
@@ -33,6 +32,9 @@ description: Route pour céer une competition
     `inscription_end_date=[string]`<br>
     `inscription_end_late_date=[string]`<br>
     `end_late_inscription_date=[string]`<br>
+
+  **Optionnel**
+    `show_logo=[.pdf|.png|.jpeg]`<br>
    
 * **Réponse de succès:**
   

@@ -1,11 +1,11 @@
 ---
-title: Modifier une competition
-description: Route pour modifier une competition.
+title: Modifier un show
+description: Route pour modifier un show.
 ---
 
 * **URL**
 
-  /api/competition/{competitionId}
+  /api/shows/{showId}
 
 * **Méthode:**
   
@@ -13,16 +13,15 @@ description: Route pour modifier une competition.
 
 * **Paramètres:**
 
-  **Requis:**
+  Content-Type: form-data
 
-    Content-Type: application/x-www-form-urlencoded
+  **Requis:**
  
     `id=[string]`<br>
     `name=[string]`<br>
     `emplacement_id=[int]`<br>
     `organizer_id=[int]`<br>
     `is_late_registration=[boolean]`<br>
-    `pathLogo=[string]`<br>
     `nb_total_place=[int]`<br>
     `nb_free_place=[int]`<br>
     `competitions_fee_id=[int]`<br>
@@ -46,6 +45,9 @@ description: Route pour modifier une competition.
     `temp_stall_per_day=[int]`<br>
     `inside_stall_per_day=[int]`<br>
     `drug_tese=[int]`<br>
+
+  **Optionnel**
+    `show_logo=[.pdf|.png|.jpeg]`<br>
    
 * **Réponse de succès:**
   

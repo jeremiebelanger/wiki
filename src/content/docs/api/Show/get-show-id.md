@@ -1,11 +1,11 @@
 ---
-title: Recevoir une competiton par id
-description: Route pour recevoir une competition par son id
+title: Recevoir un show par id
+description: Route pour recevoir un show par son id
 ---
 
 * **URL**
 
-  /api/competition/{competitionId}
+  /api/shows/{showId}
 
 * **Méthode:**
   

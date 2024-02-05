@@ -4,7 +4,7 @@ description: Route pour supprimer un show.
 ---
 * **URL**
 
-  /api/competition/{competitionId}
+  /api/shows/{showId}
 
 * **Méthode:**
   
