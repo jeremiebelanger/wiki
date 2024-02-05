@@ -5,7 +5,7 @@ description: Route pour recevoir la liste des shows d'un user
 
 * **URL**
 
-  /api/user/{userId}/competitions
+  /api/users/{userId}/shows
 
 * **Méthode:**
   
@@ -32,7 +32,7 @@ description: Route pour recevoir la liste des shows d'un user
             }
           },
           "is_late_registration": false,
-          "pathLogo": "images/jumping_montreal_logo.png",
+          "path_logo": "images/jumping_montreal_logo.png",
           "nb_places_dispo": 120,
           "nb_places_total": 200,
           "is_quebec_recognized": true,
@@ -55,7 +55,7 @@ description: Route pour recevoir la liste des shows d'un user
             }
           },
           "is_late_registration": false,
-          "pathLogo": "images/jumping_montreal_logo.png",
+          "path_logo": "images/jumping_montreal_logo.png",
           "nb_places_dispo": 120,
           "nb_places_total": 200,
           "is_quebec_recognized": true,

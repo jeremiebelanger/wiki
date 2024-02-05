@@ -5,7 +5,7 @@ description: Route pour recevoir les info d'un user
 
 * **URL**
 
-  /api/user/{userId}
+  /api/users/{userId}
 
 * **Méthode:**
   
