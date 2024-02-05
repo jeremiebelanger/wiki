@@ -25,7 +25,7 @@ description: Route pour ajouter un rider à un user
     `stable_name=[string]`<br>
     `trainer_name=[string]`<br>
 
-  **Optionel**
+  **Optionnel**
     `no_fei=[string]`<br>
 
 * **Réponse de succès:**

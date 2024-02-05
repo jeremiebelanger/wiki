@@ -5,7 +5,7 @@ description: Route pour modifier un rider à un user
 
 * **URL**
 
-  /api/user/{userId}/rider/{riderId}
+  /api/users/{userId}/riders/{riderId}
 
 * **Méthode:**
   
@@ -13,9 +13,9 @@ description: Route pour modifier un rider à un user
 
 * **Paramètres:**
 
-  **Requis:**
+  Content-Type: application/x-www-form-urlencoded
 
-    Content-Type: application/x-www-form-urlencoded
+  **Requis:**
  
     `name=[string]`<br>
     `phone=[string]`<br>
@@ -24,6 +24,9 @@ description: Route pour modifier un rider à un user
     `emergency_phone=[string]`<br>
     `stable_name=[string]`<br>
     `trainer_name=[string]`<br>
+
+  **Optionnel**
+    `no_fei=[string]`<br>
 
 * **Réponse de succès:**
   
@@ -35,7 +38,7 @@ description: Route pour modifier un rider à un user
       "name": "Alexandra Rider",
       "phone": "450-123-4567",
       "email": "alexandra.rider@example.com",
-      "no_FEI": "FEI001",
+      "no_fei": "12345678",
       "emergency_name": "John Smith",
       "emergency_phone": "450-987-6543",
       "stable_name": "Majestic Stables",
