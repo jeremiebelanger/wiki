@@ -1,11 +1,11 @@
 ---
 title: Supprimer une classe
-description: Route pour supprimer une route.
+description: Route pour supprimer une classe.
 ---
   
 * **URL**
 
-  /api/classe/{classeId}
+  /api/classes/{classeId}
 
 * **Méthode:**
   
