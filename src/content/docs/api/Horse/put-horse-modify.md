@@ -35,7 +35,7 @@ description: Route pour modifier un cheval à un user
       "id": 1,
       "name": "Thunderbolt",
       "sex": "Male",
-      "no_fei": "FEI123",
+      "no_fei": "12345678",
       "no_micro_chip": "MIC456",
       "path_vaccine": "/vaccine/thunderbolt.pdf",
       "path_coggins": "/coggins/thunderbolt.pdf"

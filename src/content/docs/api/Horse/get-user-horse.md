@@ -5,7 +5,7 @@ description: Route pour recevoir la liste des cheveaux d'un user
 
 * **URL**
 
-  /api/user/{userId}/horses
+  /api/users/{userId}/horses
 
 * **Méthode:**
   
@@ -22,7 +22,7 @@ description: Route pour recevoir la liste des cheveaux d'un user
           "id": 1,
           "name": "Thunderbolt",
           "sex": "Male",
-          "no_FEI": "FEI123",
+          "no_fei": "12345678",
           "no_micro_chip": "MIC456",
           "path_vaccine": "/vaccine/thunderbolt.pdf",
           "path_coggins": "/coggins/thunderbolt.pdf"
@@ -31,7 +31,7 @@ description: Route pour recevoir la liste des cheveaux d'un user
           "id": 2,
           "name": "Silverado",
           "sex": "Male",
-          "no_FEI": "FEI234",
+          "no_fei": "12345678",
           "no_micro_chip": "MIC567",
           "path_vaccine": "/vaccine/silverado.pdf",
           "path_coggins": "/coggins/silverado.pdf"
@@ -40,7 +40,7 @@ description: Route pour recevoir la liste des cheveaux d'un user
           "id": 3,
           "name": "Lady Belle",
           "sex": "Female",
-          "no_FEI": "FEI345",
+          "no_fei": "12345678",
           "no_micro_chip": "MIC678",
           "path_vaccine": "/vaccine/lady_belle.pdf",
           "path_coggins": "/coggins/lady_belle.pdf"

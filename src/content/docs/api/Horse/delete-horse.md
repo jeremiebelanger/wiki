@@ -5,7 +5,7 @@ description: Route pour supprimer un cheval à un user
 
 * **URL**
 
-  /api/user/{userId}/horse/{horseId}
+  /api/users/{userId}/horses/{horseId}
 
 * **Méthode:**
   
