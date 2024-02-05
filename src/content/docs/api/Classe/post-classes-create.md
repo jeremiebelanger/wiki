@@ -5,7 +5,7 @@ description: Route pour créer une nouvelle classe
 
 * **URL**
 
-  /api/classes
+  /api/shows/{showId}/classes
 
 * **Méthode:**
   
