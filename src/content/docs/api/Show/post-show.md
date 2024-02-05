@@ -1,5 +1,5 @@
 ---
-title: Créer une competition
+title: Créer une competition ⛔
 description: Route pour céer une competition
 ---
 

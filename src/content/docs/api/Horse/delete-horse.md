@@ -1,5 +1,5 @@
 ---
-title: Suprimer un cheval
+title: Suprimer un cheval ✅
 description: Route pour supprimer un cheval à un user
 ---
 

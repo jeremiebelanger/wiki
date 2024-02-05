@@ -1,5 +1,5 @@
 ---
-title: Recevoir un show par id
+title: Recevoir un show par id ✅
 description: Route pour recevoir un show par son id
 ---
 

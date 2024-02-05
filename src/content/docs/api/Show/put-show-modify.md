@@ -1,5 +1,5 @@
 ---
-title: Modifier un show
+title: Modifier un show ⛔
 description: Route pour modifier un show.
 ---
 

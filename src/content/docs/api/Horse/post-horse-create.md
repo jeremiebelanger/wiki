@@ -1,5 +1,5 @@
 ---
-title: Ajouter un cheval
+title: Ajouter un cheval ✅
 description: Route pour ajouter un cheval à un user
 ---
 

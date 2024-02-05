@@ -1,5 +1,5 @@
 ---
-title: Modifier un rider
+title: Modifier un rider ✅
 description: Route pour modifier un rider à un user
 ---
 

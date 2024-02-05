@@ -1,5 +1,5 @@
 ---
-title: Recevoir les info d'un user
+title: Recevoir les info d'un user ⛔
 description: Route pour recevoir les info d'un user
 ---
 

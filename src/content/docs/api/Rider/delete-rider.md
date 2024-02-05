@@ -1,5 +1,5 @@
 ---
-title: Suprimer un rider
+title: Suprimer un rider ✅
 description: Route pour supprimer un rider à un user
 ---
 

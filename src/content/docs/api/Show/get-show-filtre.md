@@ -1,5 +1,5 @@
 ---
-title: Recevoir touts les shows
+title: Recevoir touts les shows ✅
 description: Route pour recevoir touts les shows avec un ou plusieurs filtres ou sans filtre.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Créer une classe
+title: Créer une classe ✅
 description: Route pour créer une nouvelle classe
 ---
 
