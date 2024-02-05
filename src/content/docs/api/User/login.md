@@ -23,12 +23,11 @@ Route pour recevoir la liste des shows d'un user
 
 * **Réponse de succès:**
   
-  * **Code:** 200 <br />
+  * **Code:** 200 OK<br />
     **Contenu:** 
     ```json
     {
-      "id": 1,
-      "name": "<nom du rider supprimé>"
+        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo1LCJyb2xlIjoiVVNFUiJ9LCJpYXQiOjE3MDcxNjExNjEsImV4cCI6MTcwNzE2MTQ2MX0.9gay3zyazAuAX9oTElPskRoNWPw7vum65I63u1MzsdU"
     }
     ```
 
