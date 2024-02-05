@@ -5,7 +5,7 @@ description: Route pour recevoir un rider à partir d'un user
 
 * **URL**
 
-  /api/user/{userId}/rider/{riderId}
+  /api/users/{userId}/riders/{riderId}
 
 * **Méthode:**
   
@@ -21,7 +21,7 @@ description: Route pour recevoir un rider à partir d'un user
       "name": "Alexandra Rider",
       "phone": "450-123-4567",
       "email": "alexandra.rider@example.com",
-      "no_FEI": "FEI001",
+      "no_fei": "12345678",
       "emergency_name": "John Smith",
       "emergency_phone": "450-987-6543",
       "stable_name": "Majestic Stables",

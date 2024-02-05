@@ -5,7 +5,7 @@ description: Route pour supprimer un rider à un user
 
 * **URL**
 
-  /api/user/{userId}/rider/{riderId}
+  /api/users/{userId}/riders/{riderId}
 
 * **Méthode:**
   
