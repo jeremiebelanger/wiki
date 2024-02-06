@@ -55,7 +55,7 @@ description: Route pour céer un show
       - `quebec_fei=[string]`<br>
       - ...<br>
 
-  **Optionnel**
+  **Optionnel**<br>
     `show_logo=[.pdf|.png|.jpeg]`<br>
     `inscription_end_late_date=[string]`<br>
    
