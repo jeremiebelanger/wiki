@@ -48,7 +48,7 @@ description: Route pour céer un show
     `inscription_end_date=[string]`<br>
     `inscription_end_late_date=[string]`<br>
     `end_date=[string]`<br>
-    `asked_codes=[string]`<br>
+    `asked_codes=[string,string,string,...]`<br>
 
   **Optionnel**<br>
     `show_logo=[.pdf|.png|.jpeg]`<br>
