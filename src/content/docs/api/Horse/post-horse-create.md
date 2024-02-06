@@ -19,12 +19,16 @@ description: Route pour ajouter un cheval à un user
  
     `name=[string]`<br>
     `sex=[string]`<br>
+    `email_owner=[string]`<br>
+    `name_owner=[string]`<br>
+    `phone_owner=[string]`<br>
   
-  **Optionnel**
+  **Optionnel**<br>
     `no_fei=[string]`<br>
     `no_micro_chip=[string]`<br>
     `vaccine=[.pdf|.png|.jpeg]`<br>
     `coggins=[.pdf|.png|.jpeg]`<br>
+    `fei_owner=[string]`<br>
 
 * **Réponse de succès:**
   
@@ -32,13 +36,21 @@ description: Route pour ajouter un cheval à un user
     **Contenu:** 
     ```json
     {
-      "id": 1,
-      "name": "Thunderbolt",
-      "sex": "Male",
-      "no_fei": "FEI123",
-      "no_micro_chip": "MIC456",
-      "path_vaccine": "/vaccine/thunderbolt.pdf",
-      "path_coggins": "/coggins/thunderbolt.pdf"
+      "horse": {
+          "id": 1,
+          "name": "Gourmand",
+          "sex": "Female",
+          "no_fei": "10333333",
+          "path_vaccine": "/vaccine/thunderbolt.pdf",
+          "path_coggins": "/coggins/thunderbolt.pdf",
+          "user_id": 5
+        },
+      "owner": {
+          "name": "Bob",
+          "no_fei": "12345678",
+          "email": "Bob@gmail.com",
+          "phone": "450-555-6060"
+      }
     }
     ```
 
