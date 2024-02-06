@@ -1,6 +1,6 @@
 ---
-title: Créer une competition ⛔
-description: Route pour céer une competition
+title: Créer une show ⛔
+description: Route pour céer un show
 ---
 
 * **URL**
@@ -22,15 +22,38 @@ description: Route pour céer une competition
     `organizer_id=[int]`<br>
     `can_have_late_registration=[boolean]`<br>
     `nb_total_place=[int]`<br>
-    `show_fee_id=[int]`<br>
-    `administration_fee_id=[int]`<br>
+    `nb_free_place=[int]`<br>
+    `nb_temp_stalls=[int]`<br>
+    `nb_permanent_stalls=[int]`<br>
+    `nb_tack_stalls=[int]`<br>
+    `nb_free_temp_stalls=[int]`<br>
+    `nb_free_permanent_stalls=[int]`<br>
+    `nb_free_tack_stalls=[int]`<br>
+    `show_fee=[JSON Object]`<br>
+      - `hay=[int]`<br>
+      - `shaving=[int]`<br>
+      - `temp_stall_per_day=[int]`<br>
+      - `permanent_stall_per_day=[int]`<br>
+      - `tack_stall_per_day=[int]`<br>
+      - `drug_test=[int]`<br>
+    `administraion_fee=[JSON Object]`<br>
+      - `administration=[int]`<br>
+      - `late_inscription=[int]`<br>
+      - `cancel_inscription=[int]`<br>
+      - `ground=[int]`<br>
+      - `paramedics=[int]`<br>
+      - `camper_ground_rental=[int]`<br>
     `recognized_show=[boolean]`<br>
     `rules=[string]`<br>
     `start_date=[string]`<br>
-    `end_date=[string]`<br>
     `inscription_start_date=[string]`<br>
     `inscription_end_date=[string]`<br>
     `inscription_end_late_date=[string]`<br>
+    `end_date=[string]`<br>
+    `asked_codes=[JSON Array]`<br>
+      - `canada_fei=[string]`<br>
+      - `quebec_fei=[string]`<br>
+      - ...<br>
 
   **Optionnel**
     `show_logo=[.pdf|.png|.jpeg]`<br>
