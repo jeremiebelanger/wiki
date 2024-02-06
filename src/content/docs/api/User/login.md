@@ -2,7 +2,7 @@
 title: Login ⛔
 ---
 
-Route pour recevoir la liste des shows d'un user
+Route pour connecter un user
 
 * **URL**
 
