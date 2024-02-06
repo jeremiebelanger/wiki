@@ -1,5 +1,5 @@
 ---
-title: Recevoir la liste des cheveaux d'un user ⛔
+title: Recevoir la liste des chevaux d'un user ⛔
 description: Route pour recevoir la liste des cheveaux d'un user
 ---
 
