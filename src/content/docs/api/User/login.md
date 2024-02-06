@@ -1,5 +1,5 @@
 ---
-title: Login ⛔
+title: Login ✅
 ---
 
 Route pour connecter un user

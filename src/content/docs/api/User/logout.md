@@ -1,5 +1,5 @@
 ---
-title: Logout ⛔
+title: Logout ✅
 ---
 
 Route pour déconnecter un user

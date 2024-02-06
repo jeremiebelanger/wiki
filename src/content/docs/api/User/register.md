@@ -1,5 +1,5 @@
 ---
-title: Register ⛔
+title: Register ✅
 ---
 
 Route pour ajouter un user.
