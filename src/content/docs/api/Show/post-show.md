@@ -1,5 +1,5 @@
 ---
-title: Créer une show ⛔
+title: Créer un show ⛔
 description: Route pour céer un show
 ---
 
