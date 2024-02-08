@@ -23,6 +23,7 @@ title: 8 Févrirer
 - Est-ce qu'il y aura des heures pour le début et fin des compétitions?
 - Avons-nous besoin d'une page contact us pour que les organisateurs puissent vous contacter pour créer des compétitions ? Si oui, que mettons-nous à l'intérieur ?
 - Que devons-nous mettre dans la page des détails des compétitions ?
+- Dois on voir les juges dans les details de show.
 
 ### Admin
 - Pour les class, dans le feedback vous dite 'le test associé' à la class, n'y-a-t-il qu'un test relié à une class?
