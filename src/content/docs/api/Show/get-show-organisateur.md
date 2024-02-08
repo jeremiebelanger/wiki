@@ -69,7 +69,6 @@ Route pour recevoir touts les shows qu'un administrateur a créé.
     { "message": "La ressource n’existe pas." }
     ```
 	- **CODE** 401 UNAUTHORIZED <br />
-	**CONTENU**: 
-	```json
-	Unauthorized
-```   
+	**CONTENU:**<br>
+  `string => UNAUTHORIZED`
+	  
