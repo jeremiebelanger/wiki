@@ -14,7 +14,7 @@ Route pour ajouter un user.
 
 * **Paramètres:**
 
-  Content-Type: application/x-www-form-urlencoded
+  Content-Type: application/json
 
   **Requis:**
  

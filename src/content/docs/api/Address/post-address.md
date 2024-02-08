@@ -16,7 +16,7 @@ Route pour créer une nouvelle adresse.
 
   **Requis:**
 
-    Content-Type: application/x-www-form-urlencoded
+    Content-Type: application/json
  
     `street_address=[string]`<br>
     `province=[string]`<br>

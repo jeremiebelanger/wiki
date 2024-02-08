@@ -15,7 +15,7 @@ description: Route pour créer une nouvelle classe
 
   **Requis:**
 
-    Content-Type: application/x-www-form-urlencoded
+    Content-Type: application/json
  
     `number=[int]`<br>
     `name=[string]`<br>

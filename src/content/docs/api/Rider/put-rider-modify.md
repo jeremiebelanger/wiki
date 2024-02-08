@@ -13,7 +13,7 @@ description: Route pour modifier un rider à un user
 
 * **Paramètres:**
 
-  Content-Type: application/x-www-form-urlencoded
+  Content-Type: application/json
 
   **Requis:**
  
