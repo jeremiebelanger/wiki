@@ -20,20 +20,20 @@ Route pour recevoir les détails d'un cheval
     ```json
     {
       "horse": {
-          "id": 1,
-          "name": "Gourmand",
-          "sex": "Female",
-          "no_fei": "10333333",
-          "path_vaccine": "/vaccine/thunderbolt.pdf",
-          "path_coggins": "/coggins/thunderbolt.pdf",
-          "user_id": 5
-        },
-      "owner": {
+        "id": 1,
+        "name": "Gourmand",
+        "sex": "Female",
+        "no_fei": "10333333",
+        "path_vaccine": "/vaccine/thunderbolt.pdf",
+        "path_coggins": "/coggins/thunderbolt.pdf",
+        "user_id": 5,
+        "owner": {
           "name": "Bob",
           "no_fei": "12345678",
           "email": "Bob@gmail.com",
           "phone": "450-555-6060"
-      }
+        }
+      },
     }
     ```
 
