@@ -17,7 +17,7 @@ description: Route pour recevoir la liste des shows d'un user
     **Contenu:** 
     ```json
     {
-      "competitions": [
+      "shows": [
         {
           "id": 1,
           "name": "Jumping de Montréal 1",
@@ -40,7 +40,6 @@ description: Route pour recevoir la liste des shows d'un user
           "start_date": "2020-07-02",
           "rules": "Règles générales pour la compétition équestre :\n\n1. **Attire et Équipement :**\n   - Les cavaliers doivent porter un équipement approprié, y compris des casques conformes aux normes de sécurité en vigueur."
         },
-        
         {
           "id": 2,
           "name": "Jumping de Montréal 2",
