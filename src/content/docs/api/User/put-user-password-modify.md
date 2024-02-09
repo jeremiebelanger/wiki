@@ -22,7 +22,7 @@ description: Route qu'un user peut utiliser pour modifier son mot de passe
 
 * **Réponse de succès:**
   
-  * **Code:** 2010 <br />
+  * **Code:** 200 <br />
     **Contenu:** 
     ```json
     {
