@@ -1,5 +1,5 @@
 ---
-title: Modifier l'approbation d'une inscription à un classe ⛔
+title: Modifier l'approbation d'une inscription à un classe ✅
 ---
 
 Route pour modifier l'approbation d'une inscription à une classe
