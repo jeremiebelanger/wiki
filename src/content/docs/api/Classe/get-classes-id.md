@@ -31,7 +31,6 @@ description: Route pour obtenir une classe depuis son ID
     }
     ```
 
-   
 * **Réponse d'erreur:**
 
   * **Code:** 401 UNAUTHORIZED <br />
