@@ -1,5 +1,5 @@
 ---
-title: S'inscrire à un concours ⛔
+title: S'inscrire à un concours ✅
 ---
 
 Route pour s'inscrire à un concours
