@@ -34,6 +34,7 @@ Après le message de validation, envoit un email à l'adresse email envoyer dans
       "User created"
     }        
     ```
+    **Code:** 200 <br />
     Si le user existe
     ```json
     {
