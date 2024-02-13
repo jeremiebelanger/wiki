@@ -22,6 +22,7 @@ Route pour recevoir la liste des users avec ou sans filtre.
   - Variable: `email` (Recherche par email)
   - Variable: `role` (Recherche par role)
     - USER
+    - SECRETARY
     - ORGANIZER
     - ADMIN
 
