@@ -1,5 +1,5 @@
 ---
-title: Recevoir les détails d'un cheval ⛔
+title: Recevoir les détails d'un cheval ✅
 ---
 
 Route pour recevoir les détails d'un cheval
