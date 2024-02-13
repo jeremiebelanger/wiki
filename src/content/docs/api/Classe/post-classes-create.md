@@ -17,7 +17,7 @@ description: Route pour créer une nouvelle classe
 
     Content-Type: application/json
  
-    `number=[int]`<br>
+    `number=[string]`<br>
     `name=[string]`<br>
     `date=[date]`<br>
     `ring_name=[string]`<br>
@@ -25,6 +25,7 @@ description: Route pour créer une nouvelle classe
     `price_entry=[int]`<br>
     `level_type=[string]`<br>
     `is_test_of_choice=[bool]`<br>
+    `test_id`=[int]
    
 * **Réponse de succès:**
   
