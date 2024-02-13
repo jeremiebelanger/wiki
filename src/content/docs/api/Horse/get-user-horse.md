@@ -1,5 +1,5 @@
 ---
-title: Recevoir la liste des chevaux d'un user ⛔
+title: Recevoir la liste des chevaux d'un user ✅
 ---
 
 Route pour recevoir la liste des chevaux d'un user
@@ -13,43 +13,52 @@ Route pour recevoir la liste des chevaux d'un user
   `GET`
 
 * **Réponse de succès:**
+
+
+* **Code:** 204. Si il n'y a pas de ressource<br />
   
-  * **Code:** 200 <br />
+* **Code:** 200 <br />
     **Contenu:** 
     ```json
     {
-      "horses": [
+     [
         {
-          "id": 1,
-          "name": "Thunderbolt",
-          "sex": "Male",
-          "no_fei": "12345678",
-          "no_micro_chip": "MIC456",
-          "path_vaccine": "/vaccine/thunderbolt.pdf",
-          "path_coggins": "/coggins/thunderbolt.pdf"
+            "id": 1,
+            "name": "Thunder",
+            "sex": "Male",
+            "no_fei": "FEI123",
+            "no_micro_chip": "MICROCHIP123",
+            "path_vaccine": "/path/to/vaccine_record.pdf",
+            "path_coggins": "/path/to/coggins_record.pdf",
+            "name_owner": "Bob",
+            "fei_owner": "FEI321",
+            "email_owner": "Bob@gmail.com",
+            "phone_owner": "132-456-1254",
+            "createdAt": "2024-02-13T19:06:21.262Z",
+            "updatedAt": "2024-02-13T19:06:21.262Z",
+            "user_id": 1
         },
         {
-          "id": 2,
-          "name": "Silverado",
-          "sex": "Male",
-          "no_fei": "12345678",
-          "no_micro_chip": "MIC567",
-          "path_vaccine": "/vaccine/silverado.pdf",
-          "path_coggins": "/coggins/silverado.pdf"
-        },
-        {
-          "id": 3,
-          "name": "Lady Belle",
-          "sex": "Female",
-          "no_fei": "12345678",
-          "no_micro_chip": "MIC678",
-          "path_vaccine": "/vaccine/lady_belle.pdf",
-          "path_coggins": "/coggins/lady_belle.pdf"
-        },
+            "id": 2,
+            "name": "Allo",
+            "sex": "Female",
+            "no_fei": "FEI123",
+            "no_micro_chip": "MICROCHIP123",
+            "path_vaccine": null,
+            "path_coggins": null,
+            "name_owner": "Bob",
+            "fei_owner": "FEI321",
+            "email_owner": "Bob@gmail.com",
+            "phone_owner": "132-456-1254",
+            "createdAt": "2024-02-13T19:06:21.262Z",
+            "updatedAt": "2024-02-13T19:06:21.262Z",
+            "user_id": 1
+        }
         ...
-      ]
-    }
+    ]
+  }
     ```
+
 
 * **Réponse d'erreur:**
 

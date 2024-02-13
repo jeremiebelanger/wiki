@@ -1,14 +1,24 @@
 ---
-title: Supprimer un show 🛑
-description: Route pour supprimer un show.
+title: Modifier son mot de passe ✅
+description: Route qu'un user peut utiliser pour modifier son mot de passe
 ---
+
 * **URL**
 
-  /api/shows/{showId}
+  /api/users/{userId}/password
 
 * **Méthode:**
   
-  `DELETE`
+  `PUT`
+
+* **Paramètres:**
+
+  Content-Type: application/json
+
+  **Requis:**
+ 
+    `old_password=[string]`<br>
+    `new_password=[string]`<br>
 
 * **Réponse de succès:**
   
@@ -16,8 +26,7 @@ description: Route pour supprimer un show.
     **Contenu:** 
     ```json
     {
-      "id": 1,
-      "name": "<nom du show>"
+      "message": "Password updated."
     }
     ```
 

@@ -1,5 +1,5 @@
 ---
-title: Modifier un cheval ⛔
+title: Modifier un cheval ✅
 description: Route pour modifier un cheval à un user
 ---
 

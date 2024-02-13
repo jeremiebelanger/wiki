@@ -14,10 +14,11 @@ Route pour refresh un access token.
 
 * **Paramètres:**
 
+* **Cookie:**
+
   **Requis:**
+  refresh_token
  
-  * **Header:**<br>
-  `Authorization: <access_token>`
 
 * **Réponse de succès:**
 
