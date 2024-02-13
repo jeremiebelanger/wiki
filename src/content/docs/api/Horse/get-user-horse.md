@@ -21,7 +21,7 @@ Route pour recevoir la liste des chevaux d'un user
     **Contenu:** 
     ```json
     {
-    "horses": [
+     [
         {
             "id": 1,
             "name": "Thunder",
