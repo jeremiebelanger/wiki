@@ -12,14 +12,10 @@ Route pour déconnecter un user
   
   `GET`
 
-* **Paramètres:**
-
-  Content-Type: application/x-www-form-urlencoded
+* **Cookie:**
 
   **Requis:**
- 
-    `email=[string]`<br>
-    `password=[string]`<br>
+  refresh_token
 
 * **Réponse de succès:**
   
