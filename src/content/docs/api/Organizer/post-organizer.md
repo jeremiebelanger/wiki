@@ -1,5 +1,5 @@
 ---
-title: Créer une secretaire ✅
+title: Créer un organisateur ✅
 description: Route pour créer un nouveau organisateur. Si le user n'existe pas le compte est créé avec les information dans le body. Si le user existe, modifie un user pour mettre son role organisateur. Après le message de validation, envoit un email à l'adresse email avec le mot de passe temporaire envoyer dans le body. Le message lui demande de changer de mot de passe.
 ---
 
