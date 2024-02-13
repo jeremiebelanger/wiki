@@ -4,34 +4,34 @@ title: Créer une nouvelle adresse ✅
 
 Route pour créer une nouvelle adresse.
 
-* **URL**
+- **URL**
 
   /api/users/{userId}/address
 
-* **Méthode:**
-  
+- **Méthode:**
+
   `POST`
 
-* **Paramètres:**
+- **Paramètres:**
 
   **Requis:**
 
-    Content-Type: application/json
- 
-    `street_address=[string]`<br>
-    `province=[string]`<br>
-    `country=[string]`<br>
-    `city=[string]`<br>
-    `zip_code=[string]`<br>
+  Content-Type: application/json
+
+  `street_address=[string]`<br>
+  `province=[string]`<br>
+  `country=[string]`<br>
+  `city=[string]`<br>
+  `zip_code=[string]`<br>
 
   **Optionnel:**<br>
 
-    `other_information=[string]`<br>
+  `other_information=[string]`<br>
 
-* **Réponse de succès:**
-  
-  * **Code:** 200 <br />
-    **Contenu:** 
+- **Réponse de succès:**
+
+  - **Code:** 200 <br />
+    **Contenu:**
     ```json
     {
       {
@@ -43,20 +43,23 @@ Route pour créer une nouvelle adresse.
         "zip_code": "12345",
         "other_information": null,
         "organizer_id": 4,
+        "createdAt": "2024-02-13T19:11:40.020Z",
+        "updatedAt": "2024-02-13T19:11:40.020Z"
       },
     }
     ```
 
-* **Réponse d'erreur:**
+- **Réponse d'erreur:**
 
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Contenu:** 
+  - **Code:** 401 UNAUTHORIZED <br />
+    **Contenu:**
+
     ```json
     { "message": "Non authentifié." }
     ```
 
-  * **Code:** 403 FORBIDDEN <br />
-    **Contenu:** 
+  - **Code:** 403 FORBIDDEN <br />
+    **Contenu:**
     ```json
     { "message": "Cette action n’est pas autorisée." }
     ```
