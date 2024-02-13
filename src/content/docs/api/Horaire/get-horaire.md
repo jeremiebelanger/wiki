@@ -1,5 +1,5 @@
 ---
-title: Obtenir l'horaire
+title: Obtenir l'horaire 🛑
 description: Route pour obtenir l'horaire
 ---
 
