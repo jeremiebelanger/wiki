@@ -24,6 +24,7 @@ description: Route pour obtenir une classe depuis son ID
         "ring_number": "12AB",
         "price_entry": 50,
         "show_id": 1,
+        "test_id" : 1,
         "level_type": "Training",
         "is_test_of_choice": false,
         "createdAt": "2024-02-11T22:23:28.693Z",
